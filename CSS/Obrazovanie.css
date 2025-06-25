@@ -1,0 +1,127 @@
+body {
+    font-family: Arial;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #2c2c2c;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: #3a3a3a;
+    border-radius: 10px;
+}
+
+.header > ul {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    margin: auto;
+    list-style: none;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.header > ul > li {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header > ul > li > a {
+    display: flex;
+    text-decoration: none;
+    color: #64b5f6;
+    padding: 15px 95px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header > ul > li:hover {
+    background-color: #2196f3;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.header > ul > li:hover > a {
+    color: white;
+}
+
+
+footer {
+    background-color: #2c2c2c;
+    color: #64b5f6;
+    text-align: center;
+    padding: 30px;
+    margin-top: 100px;
+    font-size: 16px;
+    border-top: 2px solid #2196f3;
+}
+.education-section {
+    padding: 60px 20px;
+
+    text-align: center;
+}
+
+.education-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #64b5f6;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #2b2b2b;
+    border-radius: 20px;
+    padding: 30px 20px;
+    width: 260px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+    width: 160px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #64b5f6;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #64b5f6;
+}
+
+.footer{
+    margin-top: 160px;
+    width: 100%;
+    text-align: center;
+    color: #64b5f6;
+    padding: 15px 0 15px 0;
+
+}
+.Footer {
+    background-color: #3a3a3a;
+    margin-left:-350px;
+    margin-right: -350px;
+
+}
