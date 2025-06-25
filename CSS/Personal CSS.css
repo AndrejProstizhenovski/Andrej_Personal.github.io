@@ -123,13 +123,8 @@ section > div:nth-child(1) > a {
     display: none;
 }
 
-section > div:nth-child(1) {
-    background-image: url("../sliki/PersonalPhoto.jpg");
-    margin-top: 80px;
-    width: 400px;
-    height: 600px;
-    background-size: cover;
-    background-position: center;
+section > div:first-child>img {
+    margin-top: 70px;
     border-radius: 10px;
 }
 .footer{
